@@ -1,0 +1,25 @@
+#! /usr/bin/python
+# Number of input values
+n = 0
+# Accumulated sum
+a = 0
+# Result of integer division
+d = 0
+# At least one input
+x = int(input())
+a += x
+n += 1
+# Until ”0” in
+while True:
+    x = int(input())
+    if x == 0:
+        break
+    n += 1
+    a += x
+d = int(a / n)
+print(n, a, d)
+#
+# a = 4
+# print(a)
+# a -= 3
+# print(a)

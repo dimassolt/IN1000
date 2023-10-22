@@ -1,0 +1,21 @@
+1. Hva er innkapsling? Hvorfor er det nyttig?
+
+Innkapsling er prinsipp som betyr at programere har tilgang
+kun til utvalgte metoder i objekter av en klasse de bruker.
+
+Det kan brukes hvis vi trenger
+å gjøre noen objekter tilgjengelig kun inni en klasse.
+
+2. Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen av en klasse?
+
+Grensesnitt til en klasse er et sett av metoder som kan brukes til å gjøre noe med objekten inni klassen.
+Grensesnitt opererer med klassevariabler.
+
+Implementasjonen av en klasse handler med instansvariabler som objektene har.
+
+3. Hva er en instansmetode (ofte kalt bare metode), og hvordan skiller metoder seg fra
+prosedyrene/funksjonene vi har jobbet med hittil?
+
+Instansmetoder er elementer av en klasse som definerer objekter.
+
+De har alltid parameteren "self" som refereres til konstruktøren
